@@ -1,5 +1,5 @@
 import React from 'react';
-import profileImage from '../img/HemanthR.jpg'; 
+import profileImage from '../img/Vasishta.jpg'; 
 
 
 const About: React.FC = () => {
