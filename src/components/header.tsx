@@ -18,12 +18,9 @@ const Header: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
   const [darkMode, setDarkMode] = useState(() => {
-    // Check localStorage and system preference on initial load
+    // Check localStorage first, default to light mode if not set
     const savedMode = localStorage.getItem('darkMode');
-    if (savedMode !== null) {
-      return savedMode === 'true';
-    }
-    return window.matchMedia('(prefers-color-scheme: dark)').matches;
+    return savedMode === 'true';
   });
 
   useEffect(() => {
@@ -49,14 +46,12 @@ const Header: React.FC = () => {
     setIsOpen(false);
   };
 
-  // Handle system theme changes
+  // Handle system theme changes - but don't automatically switch
   useEffect(() => {
     const mediaQuery = window.matchMedia('(prefers-color-scheme: dark)');
-    const handleChange = (e: MediaQueryListEvent) => {
-      const hasStoredPreference = localStorage.getItem('darkMode') !== null;
-      if (!hasStoredPreference) {
-        setDarkMode(e.matches);
-      }
+    const handleChange = () => {
+      // Don't automatically switch theme based on system preference
+      // User must explicitly choose dark mode
     };
 
     mediaQuery.addEventListener('change', handleChange);
