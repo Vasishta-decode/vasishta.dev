@@ -22,13 +22,13 @@ const About: React.FC = () => {
                   />
                 </div>
                 <h3 className="text-2xl font-bold text-white mb-2 text-center">Vasishta R</h3>
-                <p className="text-blue-100 text-center">Full Stack Developer</p>
+                <p className="text-blue-100 text-center">Frontend Developer </p>
               </div>
               
               <div className="md:w-2/3 p-8 dark:bg-black">
                 <div className="prose dark:prose-invert max-w-none">
                   <p className="text-gray-700 dark:text-white mb-4">
-                    I'm a passionate full-stack developer with over 2+ years of experience creating beautiful, 
+                    I'm a passionate frontend developer with over 2+ years of experience creating beautiful, 
                     functional, and user-centered digital experiences. I'm constantly exploring new technologies 
                     and techniques to push the boundaries of what's possible on the web.
                   </p>
