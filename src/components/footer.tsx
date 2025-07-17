@@ -40,7 +40,7 @@ const Footer: React.FC = () => {
             <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-4">Contact Info</h3>
             <ul className="space-y-2">
               <li className="text-gray-600 dark:text-gray-300">
-                Email: zain.r.professional@gmail.com
+                Email: vasishta.official@gmail.com
               </li>
               <li className="text-gray-600 dark:text-gray-300">
                 Phone: +91 807-351-9760
