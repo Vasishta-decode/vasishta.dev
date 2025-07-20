@@ -83,7 +83,7 @@ const Contact: React.FC = () => {
                   <h4 className="text-lg font-semibold mb-4">Connect</h4>
                   <div className="flex space-x-4">
                     <a 
-                      href="https://twitter.com/your-twitter" 
+                      href="https://x.com/" 
                       target="_blank"
                       rel="noopener noreferrer"
                       className="w-10 h-10 bg-blue-800 rounded-full flex items-center justify-center hover:bg-blue-700 transition-colors"
@@ -101,7 +101,7 @@ const Contact: React.FC = () => {
                       <Facebook size={20} className="text-white" />
                     </a>
                     <a 
-                      href="https://github.com/your-github" 
+                      href="https://github.com/login" 
                       target="_blank"
                       rel="noopener noreferrer"
                       className="w-10 h-10 bg-blue-800 rounded-full flex items-center justify-center hover:bg-blue-700 transition-colors"
@@ -110,7 +110,7 @@ const Contact: React.FC = () => {
                       <Github size={20} className="text-white" />
                     </a>
                     <a 
-                      href="https://instagram.com/your-instagram" 
+                      href="https://www.instagram.com/" 
                       target="_blank"
                       rel="noopener noreferrer"
                       className="w-10 h-10 bg-blue-800 rounded-full flex items-center justify-center hover:bg-blue-700 transition-colors"
