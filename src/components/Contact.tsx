@@ -92,7 +92,7 @@ const Contact: React.FC = () => {
                       <Twitter size={20} className="text-white" />
                     </a>
                     <a 
-                      href="https://facebook.com/your-facebook" 
+                      href="https://en-gb.facebook.com/" 
                       target="_blank"
                       rel="noopener noreferrer"
                       className="w-10 h-10 bg-blue-800 rounded-full flex items-center justify-center hover:bg-blue-700 transition-colors"
